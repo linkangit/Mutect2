@@ -5,27 +5,6 @@ All paths are relative to a root directory named `Project`.
 
 ---
 
-## Table of Contents
-
-1. [Download Sequencing Reads](#1-download-sequencing-reads)
-2. [Subset Reads (Optional)](#2-subset-reads-optional)
-3. [Prepare Reference Files](#3-prepare-reference-files)
-4. [Quality Control (FastQC)](#4-quality-control-fastqc)
-5. [Trim Adapters and Merge Reads](#5-trim-adapters-and-merge-overlapping-reads)
-6. [Map Reads to Reference (BWA-MEM)](#6-map-reads-to-reference-bwa-mem)
-7. [Mark Duplicates and Sort](#7-mark-duplicates-and-sort)
-8. [Base Quality Score Recalibration (BQSR)](#8-base-quality-score-recalibration-bqsr)
-9. [Collect Alignment and Insert Size Metrics](#9-collect-alignment-and-insert-size-metrics)
-10. [Download Mutect2 Supporting Files](#10-download-mutect2-supporting-files)
-11. [Call Somatic Variants (Mutect2)](#11-call-somatic-variants-mutect2)
-12. [Estimate Cross-Sample Contamination](#12-estimate-cross-sample-contamination)
-13. [Estimate Read Orientation Artifacts](#13-estimate-read-orientation-artifacts)
-14. [Filter Mutect2 Calls](#14-filter-mutect2-calls)
-15. [Annotate Variants (Funcotator)](#15-annotate-variants-funcotator)
-16. [Workflow Summary Table](#workflow-summary-table)
-
----
-
 ## 1. Download Sequencing Reads
 
 First, create a directory for your reads and download the paired-end FASTQ files for both normal and tumor samples.
